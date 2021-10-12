@@ -1,0 +1,175 @@
+/*importaçoes*/
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+/*todos os elementos da pagina*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*configuracao padrao da pagina*/
+body{
+    text-align: center;
+    background-image: url(wallpaper/i1.gif);
+    font-family: 'Amatic SC', cursive;
+    display: block;
+}
+
+/*botao de mudar o wallpaper*/
+.btimg{
+    margin-top: -65em;
+    margin-left: -113em;
+}
+
+.btimg i{
+    color: white;
+    font-size: 3em;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.btimg i:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.btimg button{
+    background: transparent;
+    border: 0px;
+}
+
+/*texto inicial do site*/
+.inicio h1{
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    margin-top: 5em;
+    position: relative;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.466);transition: all 0.5s;
+    cursor: default;
+}
+
+.inicio h1:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.inicio p{
+    text-align: center;
+    color: white;
+    font-size: 1.8em;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.466);transition: all 0.5s;
+    cursor: default;
+}
+
+.inicio p:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+/*qrcode insta*/
+.qrcode{
+    cursor: grab;
+}
+
+.qrcode img{
+    width: 15em;
+    height: 15em;
+    margin-top: 1.5em;
+    margin-left: -7em;
+    position: absolute;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.295);
+}
+
+/*link do insta*/
+.link p{
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 11.7em;
+    margin-left: 0.62em;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.466);
+    transition: all 0.5s;
+    cursor: default;
+}
+
+.link p:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.link a{
+    color: white;
+    font-size: 1.5em;
+}
+
+
+.link h4{
+    margin-top: -1.3em;
+    margin-left: 1.6em;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.466);
+}
+
+.link i{
+    margin-top: 0.6em;
+    margin-left: -2.8em;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.466);
+}
+
+.insta{
+    transition: all 0.5s;
+}
+
+.insta:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+/*tira a decoraçao do link*/
+a{
+    text-decoration: none;
+}
+
+/*botao de pause*/
+.botao{
+    margin-top: 20em;
+    margin-left: 113em;
+}
+
+.botao button{
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+#mutado{
+    filter: invert(95%);
+    transition: all 0.5s;
+}
+
+#mutado:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+/*batao de passar a musica*/
+.pularmusic button{
+    background: transparent;
+    border: 0;
+}
+
+.pularmusic{
+    margin-top: -2.77em;
+    margin-left: 105em;
+}
+
+.pularmusic i{
+    color: white;
+    font-size: 2.5em;
+    transition: all 0.5s;
+}
+
+.pularmusic i:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}

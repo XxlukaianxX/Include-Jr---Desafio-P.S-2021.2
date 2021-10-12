@@ -1,0 +1,667 @@
+/*imports*/
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+/*All*/
+*{
+    font-family: 'Varela Round', sans-serif;
+    font-style: italic;
+    color: white;
+}
+
+*::selection{
+    background-color: rgba(153, 152, 152, 0.767);
+    color: white;
+}
+
+/*Corpo*/
+body{
+    background-image: url('img/background.png');
+    background-repeat: no-repeat;
+}
+
+body a{
+    text-decoration: none;
+}
+
+/*Inicio*/
+.inicio{
+    padding-top: 3.5em;
+    text-align: center;
+}
+
+.inicio h1{
+    font-size: 4em;
+    cursor: default;
+}
+
+.inicio h3{
+    margin-top: 0.8em;
+    font-size: 2.3em;
+    cursor: default;
+}
+
+.inicio img{
+    margin-top: -1.7em;
+}
+
+/*Botao do inicio*/
+.botao_inicio{
+    margin-top: 32.4%;
+    text-align: center;
+}
+
+.botao_inicio button{
+    background-color: black;
+    border-radius: 30px;
+    border: none;
+    padding: 8px 15px;
+    font-size: 1.3em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.527);
+}
+
+.botao_inicio button:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+/*Sobre*/
+.sobre{
+    background-color: black;
+    margin-top: 1.8em;
+}
+
+.sobre img{
+    margin-top: 8em;
+    margin-left: 5.1%;
+    margin-right: 5.1%;
+    width: 120px;
+    height: auto;
+}
+
+.sobre h1{
+    margin-top: 0.2em;
+    margin-left: 13.1%;
+    margin-right: 13.1%;
+    cursor: default;
+}
+
+.sobre p{
+    text-align: left;
+    margin-top: 2em;
+    margin-left: 13.1%;
+    margin-right: 13.1%;
+    font-size: 1.3em;
+    cursor: default;
+}
+
+.sobre button{
+    border: none;
+    background-color: transparent;
+}
+
+.sobre button:hover{
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+
+.sobre i{
+    font-size: 1.6em;
+}
+
+.botao_sobre{
+    text-align: center;
+    margin-top: 8%;
+}
+
+/*Animes favoritos*/
+.animes{
+    text-align: center;
+    padding-top: 5em;
+}
+
+.animes h1{
+    color: black;
+    cursor: default;
+}
+
+.animes hr{
+    border: 2px solid black;
+    margin-left: 8.3%;
+    margin-right: 8.3%;
+    width: 83%;
+    opacity: 100%;
+}
+
+.animes_faixa{
+    background-color: black;
+    margin-top: 2em;
+    margin-bottom: 4%;
+}
+
+#img_anime_01{
+    width: 220px;
+    height: 330px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#img_anime_01:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+#img_anime_02{
+    width: 220px;
+    height: 330px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+#img_anime_02:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+#img_anime_03{
+    width: 220px;
+    height: 330px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#img_anime_03:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.animes button{
+    border: none;
+    background-color: transparent;
+}
+
+.animes button:hover{
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+
+.animes i{
+    font-size: 1.6em;
+    color: black;
+}
+
+.botao_animes{
+    text-align: center;
+}
+
+/*Series favoritas*/
+.series{
+    text-align: center;
+    background-color: black;
+    padding-top: 5.1em;
+}
+
+.series h1{
+    cursor: default;
+}
+
+.series hr{
+    border: 2px solid white;
+    margin-left: 8.3%;
+    margin-right: 8.3%;
+    width: 83%;
+    opacity: 100%;
+}
+
+#img_serie_01{
+    width: 220px;
+    height: 330px;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+#img_serie_01:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+#img_serie_02{
+    width: 220px;
+    height: 330px;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+#img_serie_02:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+#img_serie_03{
+    width: 220px;
+    height: 330px;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+#img_serie_03:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.series button{
+    border: none;
+    background-color: transparent;
+}
+
+.series button:hover{
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+
+.series i{
+    font-size: 1.6em;
+    color: white;
+}
+
+.botao_series{
+    text-align: center;
+    margin-top: 4%;
+}
+
+/*Projetos*/
+.projetos_inicio{
+    text-align: left;
+}
+
+.projetos img{
+    margin-top: 7em;
+    margin-left: 6em;
+    width: 120px;
+    height: auto;
+    filter: invert(100%);
+}
+
+.projetos h1{
+    color: black;
+    margin-top: 0.2em;
+    margin-left: 13.1%;
+    margin-right: 13.1%;
+    cursor: default;
+}
+
+.projetos hr{
+    border: 2px solid black;
+    margin-left: 8.3%;
+    margin-right: 8.3%;
+    width: 83%;
+    opacity: 100%;
+}
+
+.botoes_projetos{
+    text-align: center;
+    margin-bottom: 4%;
+    cursor: default;
+}
+
+.py_botao{
+    border: 4px solid black;
+    border-radius: 7px;
+    width: 320px;
+    height: auto;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 3%;
+}
+
+.py_botao button{
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.479);
+    margin: 2%;
+}
+
+#botao_py_none{
+    display: none;
+}
+
+#botao_py_01{
+    padding: 8px 38px;
+}
+
+#botao_py_02{
+    padding: 8px 39px;
+}
+
+#botao_py_03{
+    padding: 8px 53px;
+}
+
+.py_botao button:hover{
+    transform: scale(1.03);
+    transition: 0.2s;
+}
+
+.web_botao{
+    bottom: 260px;
+    border: 4px solid black;
+    border-radius: 7px;
+    width: 320px;
+    height: auto;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 3%;
+}
+
+.web_botao button{
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.479);
+    padding: 8px;
+    margin: 2%;
+}
+
+#botao_web_none{
+    display: none;
+}
+
+#botao_web_01{
+    padding: 8px 119px;
+}
+
+#botao_web_02{
+    padding: 8px 51px;
+}
+
+.web_botao button:hover{
+    transform: scale(1.03);
+    transition: 0.2s;
+}
+
+#img_py, #web_img_01, #web_img_02, #web_img_03{
+    filter: none;
+    width: 50px;
+    height: auto;
+    margin: 0.5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.botao_seta_projetos{
+    text-align: center;
+}
+
+.botao_seta_projetos button{
+    background-color: transparent;
+    border: none;
+}
+
+.botao_seta_projetos i{
+    font-size: 1.6em;
+    color: black;
+}
+
+.botao_seta_projetos button:hover{
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+
+/*Contatos*/
+.contatos{
+    background-color: black;
+    padding-top: 5.5%;
+    padding-bottom: 3.5%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.contatos_table{
+    width: 50%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.contatos_h1 h1{
+    font-size: 3em;
+    position: relative;
+    left: 15%;
+    cursor: default;
+}
+
+.contatos_h3 h3{
+    font-size: 2em;
+    position: relative;
+    margin-top: 20%;
+    right: 50%;
+    cursor: default;
+}
+
+.linkedin p{
+    position: relative;
+    bottom: 0.5em;
+    font-size: 20px;
+}
+
+.linkedin img{
+    position: relative;
+    bottom: 1.3em;
+    right: 530%;
+    width: 23px;
+}
+
+.linkedin:hover{
+    transform: scale(1.05);
+    transition: 0.2s;
+    filter: blur(1.5px);
+}
+
+.github p{
+    position: relative;
+    bottom: 1.2em;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.github img{
+    position: relative;
+    bottom: 2.3em;
+    right: 583%;
+    width: 23px;
+    cursor: pointer;
+}
+
+.github:hover{
+    transform: scale(1.05);
+    transition: 0.2s;
+    filter: blur(1.5px);
+}
+
+.facebook p{
+    position: relative;
+    bottom: 1.9em;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.facebook img{
+    position: relative;
+    bottom: 3.1em;
+    right: 483%;
+    width: 23px;
+    cursor: pointer;
+}
+
+.facebook:hover{
+    transform: scale(1.05);
+    transition: 0.2s;
+    filter: blur(1.5px);
+}
+
+.instagram p{
+    position: relative;
+    bottom: 2.6em;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.instagram img{
+    position: relative;
+    bottom: 3.9em;
+    right: 470%;
+    width: 23px;
+    cursor: pointer;
+}
+
+.instagram:hover{
+    transform: scale(1.05);
+    transition: 0.2s;
+    filter: blur(1.5px);
+}
+
+.container_email{
+    margin-top: -1em;
+    width: 50%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.email h3{
+    font-size: 2em;
+    position: relative;
+    margin-top: 0%;
+    right: 16%;
+    margin-bottom: -0.1em;
+    cursor: default;
+}
+
+.email E-mail{
+    position: relative;
+    right: 8.5%;
+    font-size: 20px;
+    cursor: default;
+}
+
+.email button{
+    position: relative;
+    bottom: 0.05em;
+    right: 8.5%;
+    font-size: 18px;
+    border: none;
+    background-color: transparent;
+}
+
+.email button:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.email p{
+    display: none;
+    position: static;
+    margin-left: 27%;
+    margin-bottom: -4%;
+    left: 27%;
+    border: 1px solid white;
+    border-radius: 100px;
+    width: 5.5em;
+    text-align: center;
+    box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.548);
+    background-color: rgba(255, 255, 255, 0.377);
+    cursor: default;
+}
+
+/*Minha foto*/
+.my_photo{
+    max-width: 350px;
+}
+
+.my_photo img{
+    position: static;
+    max-width:100%;
+	height:auto;
+    margin-top: -125%;
+    margin-left: 120%;
+    border-radius: 5px;
+}
+
+/*Botao para retornar ao inicio*/
+.home_return{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin-right: 1%;
+}
+
+.home_return button{
+    border: none;
+    background-color: transparent;
+    font-size: 30px;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.500);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.486);
+}
+
+.home_return button:hover{
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+}
+
+/*Musica*/
+.musica{
+    position: fixed;
+    width: 20%;
+    left: 0;
+    bottom: 0;
+    margin-left: 1%;
+}
+
+.musica button{
+    border: none;
+    background-color: transparent;
+    font-size: 30px;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.500);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.486);
+}
+
+.musica button:hover{
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+}
+
+#next{
+    margin-left: 0.4%;
+    margin-right: 0.4%;
+}
+
+/*Animacoes*/
+[data-animacao]{
+    opacity: 0;
+    transition: 1.5s;
+}
+
+[data-animacao = "right"]{
+    transform: translate3d(200px, 0px, 0px);
+}
+
+[data-animacao = "left"]{
+    transform: translate3d(-200px, 0px, 0px);
+}
+
+[data-animacao].animacao_on{
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!--metadados-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--css-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!--icone do site-->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="img/site.webmanifest">
+
+    <!--icones do fonte awesome-->
+    <script src="https://kit.fontawesome.com/d3ab750dc2.js" crossorigin="anonymous"></script>
+
+    <!--titulo-->
+    <title>Nerdi</title>
+
+</head>
+
+<body>
+
+    <!--inicio nome-->
+    <div class="inicio">
+        <h1><strong>Nerdi, a sua loja Geek digital!</strong></h1>
+        <p><strong>Conheça nossa Loja no Instagram</strong></p>
+    </div>
+
+    <!--qrcode insta-->
+    <div class="qrcode">
+        <img src="img/qrcode.png">
+    </div>
+
+    <!--link do insta-->
+    <div class="link">
+        <p><strong>Use o QRcode ou clique no Link!</strong></p>
+        <a href="https://www.instagram.com/__nerdi_/" target="_blank">
+            <div class="insta">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <h4>__Nerdi_</h4>
+            </div>
+        </a>
+    </div>
+
+    <!--musica do site-->
+    <div class="musica">
+        <audio id="pause" autoplay muted>
+            <source id="music" src="musica/musica-01.mp3" type="audio/mpeg">
+        Seu navegador não suporta esse arquivo.
+        </audio>
+    </div>
+
+    <!--botao de pause da musica-->
+    <div class="botao">
+        <button id="bt" value="desmute">
+            <img id="mutado" src="img/off.png">
+        </button>
+    </div>
+
+    <!--botao de passar a musica-->
+    <div class="pularmusic">
+        <button id="pmusica" value="skp1" onclick="passar()">
+            <i class="fa fa-step-forward" aria-hidden="true"></i>
+        </button>
+        <script>
+            function passar(){
+                if(pmusica.value === 'skp1'){
+                    document.getElementsByTagName('audio')[0].src = 'musica/musica-02.mp3';
+                    pmusica.value = 'skp2';
+                }
+                else if(pmusica.value === 'skp2'){
+                    document.getElementsByTagName('audio')[0].src = 'musica/musica-03.mp3';
+                    pmusica.value = 'skp3';
+                }
+                else if(pmusica.value === 'skp3'){
+                    document.getElementsByTagName('audio')[0].src = 'musica/musica-04.mp3';
+                    pmusica.value = 'skp4';
+                }
+                else if(pmusica.value === 'skp4'){
+                    document.getElementsByTagName('audio')[0].src = 'musica/musica-05.mp3';
+                    pmusica.value = 'skp5';
+                }
+                else if(pmusica.value === 'skp5'){
+                    document.getElementsByTagName('audio')[0].src = 'musica/musica-01.mp3';
+                    pmusica.value = 'skp1';
+                }
+            }
+        </script>
+    </div>
+
+    <!--botao de mudar o wallpaper-->
+    <div class="btimg">
+        <button id="bimg" value="i1" onclick="mudar()">
+            <i class="fa fa-gg-circle" aria-hidden="true"></i>
+        </button>
+        <script>
+            function mudar(){
+                if(bimg.value === 'i1'){
+                    document.getElementsByTagName('body')[0].style.backgroundImage = "url('wallpaper/i2.gif')";
+                    bimg.value = 'i2';
+                }
+                else if(bimg.value === 'i2'){
+                    document.getElementsByTagName('body')[0].style.backgroundImage = "url('wallpaper/i3.gif')";
+                    bimg.value = 'i3';
+                }
+                else if(bimg.value === 'i3'){
+                    document.getElementsByTagName('body')[0].style.backgroundImage = "url('wallpaper/i4.gif')";
+                    bimg.value = 'i4';
+                }
+                else if(bimg.value === 'i4'){
+                    document.getElementsByTagName('body')[0].style.backgroundImage = "url('wallpaper/i5.gif')";
+                    bimg.value = 'i5';
+                }
+                else if(bimg.value === 'i5'){
+                    document.getElementsByTagName('body')[0].style.backgroundImage = "url('wallpaper/i1.gif')";
+                    bimg.value = 'i1';
+                }
+            }
+        </script>
+    </div>
+
+    <!--JS-->
+    <script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>

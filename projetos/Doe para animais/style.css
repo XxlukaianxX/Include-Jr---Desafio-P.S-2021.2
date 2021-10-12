@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+/*configuraçoes padroes*/
+body{
+    background-image:linear-gradient(to right, rgba(236, 159, 234, 0.527), rgba(238, 194, 236, 0.356)) ;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+
+.tabela{
+    background-image: linear-gradient(to right,  rgba(190, 120, 218, 0.336),  rgba(232, 188, 248, 0.288));
+    margin: auto;
+    margin-top: 0.2%;
+    border-style: dashed;
+    color: rgba(134, 63, 201, 0.89);
+}
+
+.tabela2{
+    background-image: linear-gradient(to right,  rgba(190, 120, 218, 0.336),  rgba(232, 188, 248, 0.288));
+    margin-left: 53%;
+    margin-top: -18%;
+    border-style: dashed;
+    color: rgba(134, 63, 201, 0.89);
+}
+
+.fonte{
+    color: rgba(148, 77, 214, 0.623);
+}
+
+.imagem{
+    margin-top: 2%;
+    margin-left: -40%;
+}
+
+.txt p{
+    position:relative;
+    top: -5%;
+    right: -16%;
+    font-size: 25px;
+    color: rgba(134, 63, 201, 0.89);
+}
+
+#botao{
+    font-family: 'Dancing Script', cursive;
+    color: rgba(134, 63, 201, 0.644);
+    background-image: linear-gradient(to right, rgb(212, 192, 245), rgba(235, 224, 245, 0.719));
+    border-radius: 10px;
+}
+
+.user i{
+    position: relative;
+    top: -550px;
+    right: -810px;
+    font-size: 30px;
+    color: rgba(158, 103, 248, 0.89);
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.ajude{
+    position: relative;
+    margin-top: 50px;
+    right: -855px;
+    font-size: 20px;
+    color: rgba(67, 17, 148, 0.89);
+    width: 200px;
+    height: auto;
+}
+
+.ajude p{
+    position: relative;
+    left: 13px;
+    font-size: 20px;
+    margin-top: -25px;
+    margin-left: 2%;
+}
+
+.ajude i{
+    position: relative;
+    right: 80px;
+}
+
+.compartilhe{
+    font-size: 20px;
+    color: rgba(67, 17, 148, 0.89);
+    position: relative;
+    left: 908px;
+    width: 90px;
+}
+
+.compartilhe p{
+    font-size: 20px;
+    margin-top: -7px;
+    margin-left: 2px;
+}
+
+#botao:hover{
+    background-image: linear-gradient(to right, rgb(236, 198, 155), rgb(247, 224, 199));
+    box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.2);
+    text-shadow: none;
+}
+
+.user i:hover{
+    color: rgb(236, 198, 155);
+    text-shadow: none;
+}
+
+.ajude a:hover{
+    color: rgb(236, 198, 155);
+    text-shadow: none;
+}
+
+.compartilhe a:hover{
+    color: rgb(236, 198, 155);
+    text-shadow: none;
+}
+
+#botao, select{
+    cursor: pointer;
+}
+
+#email:focus, #senha:focus{
+    background: rgb(221, 198, 247);
+}
+
+.itxt{
+    color: blueviolet;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    font-size: 37px;
+    text-align: left;
+    position: relative;
+    top: -1375px;
+    width: 165px;
+}
+
+.itxt a:hover{
+    color: rgb(236, 198, 155);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+/*Ajude os animais*/
+.fonte h1{
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    animation:
+        typing 4.5s steps(140, end),
+        blink-caret .5s step-end infinite;
+}
+
+@keyframes typing{
+    from{width: 0;}
+    to {width: 100%}
+}
