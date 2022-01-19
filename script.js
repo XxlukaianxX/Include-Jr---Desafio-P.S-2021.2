@@ -127,64 +127,6 @@ function alteracoes(){
 }
 
 passar_musica.onclick = function(){
-    if (passar_musica.value === '1'){
-        value_musica()
-        alteracoes()
-    }
-    else if (passar_musica.value === '2'){
-        value_musica()
-        alteracoes()
-    }
-    else if (passar_musica.value === '3'){
-        value_musica()
-        alteracoes()
-    }
-    else if (passar_musica.value === '4'){
-        value_musica()
-        alteracoes()
-    }
-    else if (passar_musica.value === '5'){
-        value_musica()
-        alteracoes()
-    }
-    else if (passar_musica.value === '6'){
-        value_musica()
-        alteracoes()
-    }
-    else if (passar_musica.value === '7'){
-        value_musica()
-        alteracoes()
-    }
-    else if (passar_musica.value === '8'){
-        value_musica()
-        alteracoes()
-    }
-    else if (passar_musica.value === '9'){
-        value_musica()
-        alteracoes()
-    }
-    else if (passar_musica.value === '10'){
-        value_musica()
-        alteracoes()
-    }
-    else if (passar_musica.value === '11'){
-        value_musica()
-        alteracoes()
-    }
-    else if (passar_musica.value === '12'){
-        value_musica()
-        alteracoes()
-    }
-    else if (passar_musica.value === '13'){
-        value_musica()
-        alteracoes()
-    }
-    else if (passar_musica.value === '14'){
-        value_musica()
-        alteracoes()
-    }
-    else if (passar_musica.value === '15'){
-        value_musica()
-        alteracoes()
-    }
+    value_musica()
+    alteracoes()
 }
