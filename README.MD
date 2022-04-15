@@ -5,4 +5,4 @@
 *O documento para executar o site é o index.html*
 
 ## GitHub Pages
-*https://xxlukaianxx.github.io/Include_Jr_Desafio-P.S-2021.2/*
+*https://lukaian-k.github.io/Include_Jr_Desafio-P.S-2021.2/*
